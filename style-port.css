@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  padding-top: 8vh;
+}
+
+.img {
+  background-image: url(freepik-undefined-202410240715478pze.png);
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  height: 8vh;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #f5ebeb12;
+}
+.nav-container .logo {
+  flex: 0 0 auto;
+  margin-right: 80px;
+}
+.nav-container .logo .logo-img {
+  width: 150px;
+  height: auto;
+}
+.social-handles {
+  background-color: rgba(12, 9, 9, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  gap: 50px;
+}
+.social-handles a {
+  position: relative;
+  display: inline;
+}
+.social-handles a:hover {
+  background-color: rgba(255, 0, 0, 0.466);
+  border-radius: 20%;
+}
+
+.nav-container .com-name,
+.portfolio,
+.cash,
+.ree {
+  flex: 1;
+  text-align: center;
+  position: relative;
+
+  text-transform: uppercase;
+}
+.portfolio {
+  text-decoration: underline;
+  margin-left: 138px;
+}
+.video-choice {
+  display: flex;
+  justify-content: center;
+  gap: 280px;
+}
+button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 5px;
+  cursor: pointer;
+}
+.cashcow-videos-list {
+  /* background-color: red; */
+  display: grid;
+  justify-content: center;
+
+  justify-items: center;
+  grid-template-columns: 48% 48%;
+
+  margin: 5px;
+}
+
+.cashcow-video {
+  width: 90%;
+  margin: 5px;
+}
+.cashcow-video:hover {
+  box-shadow: 3px 3px red, -0em 0 0em red;
+}
+.reels-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* display: none; */
+
+  flex-wrap: wrap;
+}
+.cashcow-videos-list,
+.reels-list {
+  margin-top: 20px;
+  transition: visibility 0.3s ease, height 0.3s ease;
+}
+.reels-video:hover {
+  box-shadow: 3px 3px red, -0em 0 0em red;
+}
+.reels-video {
+  width: 100%;
+  height: auto;
+  max-width: 360px;
+}
