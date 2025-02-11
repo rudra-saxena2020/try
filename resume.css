@@ -624,3 +624,69 @@ main .contact {
         margin-bottom: 0;
     }
 }
+
+.resume {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.resume .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.resume .resume-lines {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume .resume-line {
+    margin-bottom: 20px;
+}
+
+.resume .line-down {
+    margin-bottom: 10px;
+}
+
+.resume .date {
+    font-weight: bold;
+}
+
+.resume .name {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.resume .company {
+    font-size: 16px;
+    color: #666;
+}
+
+.resume .resume-skills {
+    margin-top: 20px;
+}
+
+.resume .resume-skills .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.resume .resume-skills .line-left {
+    margin-bottom: 20px;
+}
+
+.resume .resume-skills .line-down {
+    margin-bottom: 10px;
+}
+
+.resume .resume-skills .line-down div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume .resume-skills .line-down div div {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+}
