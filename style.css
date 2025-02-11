@@ -117,18 +117,20 @@ nav{
     transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, filter 0.2s ease;
 }
 
-.dropdown{
-    z-index: 100;
+.dropdown {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateY(-500px);
-    width: 100%;
+    width: 30%;
     height: auto;
     backdrop-filter: brightness(40%) blur(3px);
     box-shadow: 0 0 20px black;
     transition: transform 0.3s ease-in-out;
+    
+    display: none; /* Hide initially */
+    transform: translateY(-500px); /* Start hidden */
 }
+
 .dropdown .links {
     display: flex;
     flex-direction: column;
